@@ -1,6 +1,7 @@
 <div class="typewriter">
 	<h1>Coming soon.</h1>
 </div>
+<a href="https://github.com/GeneralMine/marvin.raiser.dev">0.0.2</a>
 
 <style>
 	:global(body) {
@@ -8,6 +9,12 @@
 		padding-top: 5em;
 		display: flex;
 		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	a {
+		padding-top: 1rem;
 	}
 
 	.typewriter h1 {
