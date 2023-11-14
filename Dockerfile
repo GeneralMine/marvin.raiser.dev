@@ -1,7 +1,7 @@
 # Build Stage 1
 # This build created a staging docker image
 #
-FROM node:16.16.0 as builder
+FROM node:18.16 as builder
 
 WORKDIR /app
 
@@ -16,7 +16,7 @@ RUN npm run build
 # Build Stage 2
 # This build takes the production build from staging build
 #
-FROM node:16.16.0-alpine
+FROM node:18.16-alpine
 
 WORKDIR /app
 
@@ -26,6 +26,6 @@ RUN npm ci
 
 COPY --from=builder /app/build /app/build
 
-EXPOSE 3000
+EXPOSE 80
 
 ENTRYPOINT node ./build
