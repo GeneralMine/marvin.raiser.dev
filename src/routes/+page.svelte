@@ -79,6 +79,10 @@
 
 <Section title="Where I do WebDev voluntarily">
 	<PeopleCard
+		src="akamodell.svg"
+		text="<a href='https://akamodell-muenchen.de'>The Akamodell München</a> is a student group of well-minded aircraft enthusiasts, where I work on my drones, assemble new aircraft with carbon fibre and help participating in international competitions."
+	/>
+	<PeopleCard
 		src="LabAlumni.svg"
 		text="I joined the <a href='https://lab-alumni.de'>Alumni Network of Heidelbergs Life-Science Lab</a> after graduating, where I'm still in contact with other researchers. In the IT-Team we're working on a new website and provide infrastructure."
 	/>
