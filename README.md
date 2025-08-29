@@ -1,22 +1,23 @@
-# create-svelte
+# My personal website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Future Ideas
+### Projects
+Add a section about my projects with a small image gallery and an indiviudal page for every project.
 
-## Creating a project
+### Talks & Publications
+A section about talks I gave especially the IEEE Summer School one. Depending on the amount of talks I can fit in there I might combine it with my publications at Fraunhofer and TUM.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Changelog
+I want to implement a changelog styled timeline of important steps in my life. I'm still collecting all the steps and experimenting with it, so it may take a while.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+The timeline will be fliterable by specific categories like CV (focus on business related stuff), hobby, education, volunteering etc.
 
-# create a new project in my-app
-npm init svelte my-app
-```
+Some categories might be hidden or blocked by a password to share private milestones as well.
+
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned the repo and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -27,7 +28,7 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production version of the site:
 
 ```bash
 npm run build

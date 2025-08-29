@@ -1,33 +1,43 @@
-name: ci
-
 on:
   push:
     tags:
       - "[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
-  docker:
+  buildAndPush:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set env
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+        uses: docker/setup-buildx-action@v2
       - name: Login to Registry
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
-          registry: ${{ secrets.REGISTRY_URL }}
-          username: ${{ secrets.REGISTRY_USER }}
-          password: ${{ secrets.REGISTRY_PASSWORD }}
-      - name: Build and push marvin-raiser-dev
-        uses: docker/build-push-action@v2
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and push marvin.raiser.dev
+        uses: docker/build-push-action@v4
         with:
           context: .
-          platforms: linux/amd64
+          platforms: linux/amd64, linux/arm64
           push: true
           tags: |
-            ${{ secrets.REGISTRY_URL }}/marvin-raiser-dev:${{ env.RELEASE_VERSION }}
+            ${{ secrets.REGISTRY_URL }}/marvin.raiser.dev:${{ env.RELEASE_VERSION }}
+      - name: Changelog
+        uses: scottbrenner/generate-changelog-action@master
+        id: Changelog
+        env:
+          REPO: ${{ github.repository }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          append_body: true
+          body: |
+            ${{ steps.Changelog.outputs.changelog }}

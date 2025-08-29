@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860.23 277.63">
+  <g id="layer1">
+    <g id="text410">
+      <g style="isolation: isolate;">
+        <path d="m270.13,161.12l-11.6-19.5h-38.2l4.8-8.4h28.4l-19.2-32.2-35.7,60.1h-11.1l42.4-70.5c1.2-2,2.6-3.2,4.8-3.2s3.5,1.2,4.7,3.2l42.4,70.5h-11.7Z" style="fill: #0088bd; stroke-width: 0px;"/>
+      </g>
+    </g>
+    <g id="g2045">
+      <g id="text418">
+        <g style="isolation: isolate;">
+          <path d="m292.28,160.62l51.6-37.5-50.1-35.2h15.7l43.6,30.8c2,1.4,2.5,2.6,2.5,4.5,0,1.8-.5,3-2.1,4.2l-45.3,33.2h-15.9Zm66.9,0v-72.7h9.7v72.7h-9.7Z" style="fill: #0088bd; stroke-width: 0px;"/>
+        </g>
+      </g>
+      <g id="text422">
+        <g style="isolation: isolate;">
+          <path d="m375.84,160.62v-72.7h9.7v72.7h-9.7Zm60.7,0l-45.3-33.2c-1.6-1.2-2.1-2.4-2.1-4.2,0-1.9.5-3.1,2.5-4.5l43.6-30.8h15.7l-50.1,35.2,51.6,37.5h-15.9Z" style="fill: #0088bd; stroke-width: 0px;"/>
+        </g>
+      </g>
+      <circle id="path476" cx="300.57" cy="86.08" r="11.34" style="fill: #0088bd; stroke-width: 0px;"/>
+      <circle id="path476-4" cx="300.57" cy="160.58" r="11.34" style="fill: #0088bd; stroke-width: 0px;"/>
+      <circle id="path476-6" cx="444.27" cy="86.08" r="11.34" style="fill: #0088bd; stroke-width: 0px;"/>
+      <circle id="path476-1" cx="444.27" cy="160.58" r="11.34" style="fill: #0088bd; stroke-width: 0px;"/>
+      <ellipse id="path1539" cx="300.57" cy="160.58" rx="3" ry="35" transform="translate(-25.51 259.57) rotate(-45)" style="fill: #0088bd; stroke-width: 0px;"/>
+      <ellipse id="path1539-5" cx="444.27" cy="160.58" rx="35" ry="3" transform="translate(16.58 361.18) rotate(-45)" style="fill: #0088bd; stroke-width: 0px;"/>
+      <ellipse id="path1539-5-9" cx="300.57" cy="86.08" rx="35" ry="3" transform="translate(27.17 237.75) rotate(-45)" style="fill: #0088bd; stroke-width: 0px;"/>
+      <ellipse id="path1539-5-9-1" cx="444.27" cy="86.08" rx="3" ry="35" transform="translate(69.26 339.36) rotate(-45)" style="fill: #0088bd; stroke-width: 0px;"/>
+    </g>
+    <g id="text1619">
+      <g style="isolation: isolate;">
+        <path d="m548.49,87.42h9.5v40.6c0,22.5-10.9,33.1-38.6,33.1s-38.5-10.6-38.5-33.1v-40.6h10v40.6c0,16.4,7.4,23.5,28.8,23.5s28.8-7.1,28.8-23.5v-40.6Z" style="fill: #0088bd; stroke-width: 0px;"/>
+      </g>
+    </g>
+    <g id="text1623">
+      <g style="isolation: isolate;">
+        <path d="m577.14,160.62v-9.7h54.1c8.1,0,12.4-4.7,12.4-11.5,0-7.5-4.4-11.3-12.4-11.3h-34c-13.1,0-21.2-8.7-21.2-20.3s7.5-19.9,21.4-19.9h51.9v9.7h-51.9c-7.2,0-11.3,4.4-11.3,10.8s4.3,10.7,11.2,10.7h33.9c14.1,0,21.6,7,21.6,20.7,0,11.9-7.1,20.8-21.6,20.8h-54.1Z" style="fill: #0088bd; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -3,10 +3,13 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
-	<body>
-		%sveltekit.body%
+	<body
+		data-sveltekit-preload-data="hover"
+		style="padding: 0; margin: 0; background-color: #181818; color: #d8d8d8"
+	>
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
